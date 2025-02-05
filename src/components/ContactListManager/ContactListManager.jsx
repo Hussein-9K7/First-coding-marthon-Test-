@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-
+import './ContactListManager.css'
 const ContactListManager = () => {
   const [contacts, setContacts] = useState([]);
   const [name, setName] = useState('');
@@ -25,7 +26,7 @@ const ContactListManager = () => {
   };
 
   return (
-    <div>
+    <div className='contact'>
       <h2>Contact List Manager</h2>
       <form onSubmit={addContact}>
         <input

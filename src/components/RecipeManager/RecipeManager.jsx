@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-
+import './RecipeManager.css'
 const RecipeManager = () => {
   const [recipes, setRecipes] = useState([]);
   const [name, setName] = useState('');
@@ -25,7 +26,7 @@ const RecipeManager = () => {
   };
 
   return (
-    <div>
+    <div className='Rec'> 
       <h2>Recipe Manager</h2>
       <form onSubmit={addRecipe}>
         <input

@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
-
+import './ShoppingCart.css'
 const ShoppingCart = () => {
   const [cart, setCart] = useState([]);
   const [itemName, setItemName] = useState('');
@@ -31,7 +32,7 @@ const ShoppingCart = () => {
   };
 
   return (
-    <div>
+    <div className='shop'>
       <h2>Shopping Cart</h2>
       <form onSubmit={addItem}>
         <input

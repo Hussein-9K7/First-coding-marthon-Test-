@@ -1,0 +1,98 @@
+.Rec {
+    font-family: 'Arial', sans-serif;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fc;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .Rec h2 {
+    text-align: center;
+    color: #2d3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .Rec form input,
+  .Rec form textarea,
+  .Rec form button {
+    padding: 12px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .Rec form input:focus,
+  .Rec form textarea:focus,
+  .Rec form button:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .Rec form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .Rec form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 95%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Rec form button:hover {
+    background-color: #45a049;
+  }
+  
+  .Rec ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  .Rec li {
+    padding: 15px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Rec li h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .Rec li p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .Rec li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Rec li button:hover {
+    background-color: #c0392b;
+  }
+  

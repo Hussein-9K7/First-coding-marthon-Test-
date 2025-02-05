@@ -1,0 +1,109 @@
+.shop {
+    font-family: 'Arial', sans-serif;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fc;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .shop h2 {
+    text-align: center;
+    color: #2d3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .shop form input,
+  .shop form button {
+    padding: 12px;
+    margin: 10px 0;
+    width: 90%;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .shop form input:focus,
+  .shop form button:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .shop form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 95%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop form button:hover {
+    background-color: #45a049;
+  }
+  
+  .shop ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  .shop li {
+    padding: 15px;
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shop li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop li button:hover {
+    background-color: #c0392b;
+  }
+  
+  .shop li button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+  }
+  
+  .shop li span {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .shop li .quantity-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .shop li .quantity-buttons button {
+    padding: 5px 10px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop li .quantity-buttons button:hover {
+    background-color: #ec971f;
+  }
+  
